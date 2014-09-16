@@ -1,4 +1,5 @@
 alcatraz
 ========
-
+The United States Disciplinary Barracks on Alcatraz was acquired by the United States Department of Justice on October 12, 1933, and the island became a Federal Bureau of Prisons federal prison in August 1934. Alcatraz was designed to hold prisoners who continuously caused trouble at other federal prisons. At 9:40 am in the morning of August 11, 1934, the first batch of 137 prisoners arrived at Alcatraz, arriving by railroad from the United States Penitentiary in Leavenworth, Kansas at Santa Venetia, California, before being escorted to Alcatraz, handcuffed in high security coaches and guarded by some 60 special FBI agents, U.S. Marshals and railway security officials. Most of the prisoners were notorious bank robbers and murderers. The prison initially had a staff of 155, including the first warden James A. Johnston and associate warden J. E. Shuttleworth, both considered to be "iron men". The staff were highly trained in security, but not rehabilitation.
+========
 java trainnig course
