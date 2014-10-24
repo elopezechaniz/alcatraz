@@ -1,28 +1,33 @@
 package org.rlanza.alcatraz;
 
-import java.util.ArrayList;
-import java.util.List;
 
-public class Hallway {
-	private ArrayList<Inmate> _inmates;
-	private ArrayList<Door> _doors;
+public class Hallway extends Room{
 
-	public Hallway() {
-		_inmates = new ArrayList<Inmate>();
+	public Hallway(String code) {
+		super(code);
+		// TODO Auto-generated constructor stub
 	}
 
-	public ArrayList<Inmate> getInmates() {
-		return _inmates;
+	@Override
+	protected void printRemovedInmate(Inmate inmate) {
+		// TODO Auto-generated method stub
+		System.out.println("inmate "+ inmate.getNumber()+" has been removed from hallway "+ getCode());
+		
 	}
+	
+	@Override
+	protected void printAddedDoor(String code) {
+		// TODO Auto-generated method stub
+		System.out.println("Door "+ code 
+				+" has been added to Hallway "+ getCode());
+		
+	}
+	
+	/*public ArrayList<Inmate> getInmateslala(){
+		ArrayList<Inmate> temp = super.getInmates();  
+		for (int i=0; i<3; i++)
+			
+	}*/
+	
 
-	public void addInmates(ArrayList<Inmate> inmatesList) {
-		for (int i = 0; i < inmatesList.size(); i++) {
-			_inmates.add(inmatesList.get(i));
-		}
-	}
-
-	public Door getDoor() {
-		// public void addCellDoors(ArraList<Door> )
-		return _doors.get(1);
-	}
 }
